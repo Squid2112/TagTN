@@ -1,0 +1,30 @@
+{
+	default: {
+		name:'default',
+		platform:'desktop',
+		browser:'full',
+		path:'default',
+		cacheable:false
+	},
+	droid: {
+		name:'droid',
+		platform:'android',
+		browser:'full',
+		path:'droid',
+		cacheable:false
+	},
+	blackberry: {
+		name:'blackberry',
+		platform:'blackberry',
+		browser:'blackberry',
+		path:'blackberry',
+		cacheable:false
+	},
+	ipad: {
+		name:'ipad',
+		platform:'ios',
+		browser:'full',
+		path:'ipad',
+		cacheable:false
+	}
+}

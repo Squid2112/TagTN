@@ -1,0 +1,10 @@
+/* ContentObject:spinner CSS  */
+div.spinner {
+	padding:0px;
+	top:0px;
+	left:0px;
+	margin:0px;
+	width:32px;
+	height:32px;
+	position:absolute;
+}

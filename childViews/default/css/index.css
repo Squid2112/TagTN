@@ -1,0 +1,153 @@
+div.hp-coupons { display:none; }
+div.coupons { 
+	float:left; 
+	text-align:center;
+	width:490px;
+}
+
+div.coupons p {
+	font: bold 16px arial, helvetica, sans-serif;
+	color:#000;	
+}
+
+#top {
+	background:url(/assets/img/animation-background.jpg) no-repeat 0 0 transparent;
+	height:220px;
+}
+
+/*
+div.swish2 { 
+	height:300px;
+	background:url(/assets/img/swish2.png) no-repeat 0 170px #fff;
+}
+*/
+
+
+div.hp-player { 
+	float:right; 
+	display:block; 
+	background-color:#FFFFFF;
+	width:212px; 
+	height:150px; 
+	text-align:center; 
+	color:#999999;
+	margin:10px;
+	margin-right:63px;
+
+/*	
+	box-shadow: 4px 4px 4px #888;
+	-webkit-box-shadow: 4px 4px 4px #888;
+	-moz-box-shadow: 4px 4px 4px #888; 
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#888, offX=4, offY=4, positive=true);
+*/
+}
+
+#row-2-left {
+	float:left;
+	width:500px;
+}
+
+#row-2-right {
+	float:right;
+	width:300px;
+}
+
+/* row 3 */
+
+#row-3 {
+	margin-top:20px;
+}
+
+#row-3-left {
+	float:left;
+	width:394px;
+	margin:0 4px;
+	padding-top:35px;
+	height:120px;
+	background:url(/assets/img/fund-group-back-1.png) no-repeat 50% 0 #fff;
+}
+
+#row-3-left td,
+#row-3-right td {
+	text-align:center;
+}
+
+.fundraising-text {
+	position:relative;
+	top:-10px;
+}
+
+#row-3-right {
+	float:right;
+	width:394px;
+	margin:0 4px;
+	padding-top:35px;	
+	height:120px;
+	background:url(/assets/img/fund-group-back-2.png) no-repeat 50% 0 #fff;
+	}
+	
+	
+#row-4 {
+	background-color:#d5b5d6;
+	padding:0 4px 0px 12px;
+}
+
+#row-5 ul {
+	padding-left:10px;
+}
+
+.purple-box {
+	background:url(/assets/img/home-product-back.png) no-repeat 0 0 #fff;
+	width:257px;
+	height:274px;
+	margin:0px 10px 20px 0;
+}
+
+#row-4 .float-right {
+	margin: 0px 9px 20px 0;
+}
+
+.purple-box p.product-content {
+		padding:0px 20px;
+}
+
+
+p.product-title {
+	font:bold 18px arial, hevletica, sans-serif;
+	color:#000;
+	text-align:center;
+	margin-top:5px;
+}
+
+.learnmore-title {
+	font: bold 18px arial, helvetica, sans-serif;
+	text-align:center;
+	padding-top: 10px;
+}
+
+#row-5 .left,
+#row-6 .left {
+	width:204px;
+	float:left;
+}
+
+#row-5 .right,
+#row-6 .right {
+	width:204px;
+	float:right;
+}
+
+#row-5 .left .text {
+	border-right: solid 1px #000;
+	height:150px;
+}
+
+#row-5 .text h3 {
+	font: bold 18px arial, helvetica, sans-serif;
+	color:#000;
+}
+
+#row-5 .text p {
+	font: 12px arial, helvetica, sans-serif;
+}
+

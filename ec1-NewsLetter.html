@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta property="og:title" content="Talk Fusion Video Newsletter" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://app.talkfusion.com/newsletters/vn_view.asp?MjE5Nzg=_18046613" />
+<meta property="og:image" content="http://cdn.talkfusion.com/members/1/149/255/1211/13122621v.png" />
+<meta property="og:site_name" content="Talk Fusion" />
+<meta property="og:description" content="Talk Fusion Video Newsletter" />
+<meta name="robots" content="noindex" />
+<meta name="robots" content="noarchive" />
+<meta name="googlebot" content="noindex" />
+<meta name="googlebot" content="noarchive" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<TITLE>Talk Fusion Video Newsletter</TITLE>
+<link rel="image_src" type="image/png" href="http://cdn.talkfusion.com/members/1/149/255/1211/13122621v.png" />
+<link href="/fusion2/tools2/video_style.css" rel="stylesheet" type="text/css" />
+<link href="/fusion2/player5/cybergraf/style_mobile.css" rel="stylesheet" type="text/css" />
+<link href="Content/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+#docloader {background: #EEE;display: none;}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script src="/fusion2/player5/projekktor.min.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+var bnid = "MjE5Nzg=";
+var viewindx = "17069";
+var videos = "1915579|";
+var contact = "18046613";
+var acct = "";
+var ssnd = "";
+var snd = "1149255";
+var glb = "";
+if (snd.substr(0,1) != "1") {
+	glb = "g";
+}
+$(function () {
+	var myimg = $("img:first").attr("src");
+	//$('meta[property="og:image"]').attr("content", myimg);
+});	
+
+$(document).ready(function() {
+	$("#divUnsub").remove();
+	$("#myplayer").remove();
+	if (acct == "") {
+		$("#mbox").remove();
+	}
+	$("#docloader").dialog({
+		title: "Forward to Friends",
+		autoOpen: false,
+		modal: true,
+		height: 340,
+		width: 800,
+		buttons: {
+        	"Close": function(){
+            	$(this).dialog("close");
+	        }
+		},
+		open: function (event, ui) {
+    		$("#docloader").css("overflow", "hidden");
+  		},
+		close: function(ev, ui) {
+			$("#docframe").attr("src","");
+		}
+	});
+	
+	if ($("#player_tf").length) {
+		$("#player_tf").remove();
+	}
+	if (videos != "") {
+		$("#videoContainer").append('<div id="playerContain"><div id="player_tf" class="projekktor" style="width: 320px; height: 268px; z-index:999"></div><div id="btmBanner"></div></div>');
+		var json = "/fusion2/player5/_playlist.asp?videoId=" + glb + videos + "&rtmp=members";
+		projekktor("#player_tf", {
+			playerFlashMP4:	'/fusion2/player5/jarisplayer.swf',
+			playerFlashMP3:	'/fusion2/player5/jarisplayer.swf',
+	    	controls: true,
+			autoplay: true,
+	    	playlist: [{0:{src:json, type:"text/json"}}] 
+	    }, function(player) {
+			var playerState = player.getState();
+			if (viewindx != "" && playerState == "PLAYING") {
+					$.get("_data_updatevideoview.asp", {viewindx: viewindx});
+				}
+			}   
+		);  	
+		
+		$("#playerContain").show();
+	}
+	
+	$("#xfwd").click(function(event) {
+		event.preventDefault();
+		var x_url = "vn_forwardform.asp?xstr=MjE5Nzg=_18046613";
+		$("#docloader").dialog("open");
+		$("#docframe").attr("src",x_url);
+		return false;
+	});	
+
+})
+$(function () {
+	$("button").button();
+});
+</script>
+</head>
+<body bgcolor="#ffffff" topmargin="0" marginheight="0" leftmargin="0" rightmargin="0">
+
+<div id="docloader">
+	<iframe id="docframe" width="100%" height="100%" marginWidth="0" marginHeight="0" frameBorder="0" scrolling="auto" title="Dialog Title"></iframe>
+</div>
+<div id="mbox" style="width: 100%; height: 42px;margin:0; background-color:#CEEE6C; padding-top: 8px; color: #666666;">
+	<div style="width: 50x; height: 26px;margin-left:40px;float: left;"></div>
+	<div style="width: 300x; height: 26px;margin-left:20px;float: left;"><button id="btnRecall">Delete</button></div>
+	<div style="width: 200px; height: 26px;margin-left:20px;float: left;"><button id="btnResend">Resend</button></div>
+	</div>
+</div>
+<div id="content">
+<table align="center" bgcolor="#00ffff" border="0" cellpadding="0" cellspacing="0" width="800">
+  	<tbody><tr valign="top">
+    	<td style="border:solid 1px #cccccc;" bgcolor="#FFFFFF">
+			<table bgcolor="#00ffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+     			<tbody><tr valign="top">
+        			<td height="277" width="800"><div style="width: 800px; height: 277px;" id="vn21978ibx0" class="imageBox"><img src="http://cdn.of.talkfusion.com/members/1/149/255/1211/13145043800.jpg" id="image1" class="nomove"></div></td>
+     			</tr>
+     			<tr valign="top">
+        		<td class="droppable" style="padding: 20px 0px; border: medium none;" align="center">
+					<div aria-hidden="true" style="" id="def0"><p style="margin: 0px; font-size: 48px; font-family: arial,sans-serif; color: #0303f5; letter-spacing: -2px; text-transform: uppercase; text-align: center;"><span style="font-size: 48px; font-family: comic sans ms,sans-serif;"><strong>the ark global network</strong></span></p>
+
+</div>
+				</td>
+      		</tr>
+      		<tr valign="top">
+        		<td class="droppable" style="padding: 25px 40px; border: medium none;">
+					<div aria-hidden="true" style="" id="def1"><p style="text-transform: uppercase; font-size: 18px; margin: 0px; color: #0303f5; text-align: center;"><span style="font-family: times new roman,times;"><strong><span style="font-size: 36px;">welcome to the ark!</span></strong></span></p></div>
+				</td>
+      		</tr>
+      		<tr valign="top">
+        		<td>
+					<table bgcolor="#00ffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+          				<tbody><tr valign="top">
+            				<td class="droppable" style="padding-left: 40px; border: medium none;" width="50%">
+							<br>
+							<br>
+							<a target="_blank" href="http://app.talkfusion.com/newsletters/vn_view.asp?MjE5Nzg=_18046613"><img src="http://www.tagtn.com/assets/img/ec1-videopic.jpg" onload="View.inlineImageLoaded(this,undefined,false)"></a>
+<br>
+<p style="text-transform: uppercase; font-size: 18px; margin: 0px; color: #0303f5; text-align: center;"><span style="color: #0000ff; background-color: #ffff00; font-size: 16px;"><strong>join our facebook group</strong></span></p>
+<p style="color: #0303f5;"><span style="font-size: 16px;">Please</span> <strong><span style="color: #ff0000;"><a title="Facebook Group" href="http://www.facebook.com/groups/TheArkGlobalNetwork/" target="_blank"><span style="font-size: 24px; color: #ff0000;">CLICK HERE</span></a></span></strong><span style="font-size: 16px;"> to join us now and be part of an amazing Journey that will change your life thru a team effort!</span><br>&nbsp;<br><span style="font-size: 24px;">Come JOIN US!</span></p>
+
+</div>
+						</td>
+            			<td class="droppable" style="padding: 25px 40px; border: medium none;" width="50%">
+							<div aria-hidden="true" style="" id="def4"><p style="margin: 0px 0px 30px; font-size: 28px; color: #0303f5; letter-spacing: -1px; text-transform: uppercase; text-align: center;"><span style="font-family: comic sans ms,sans-serif;">here at the ark</span></p>
+<p style="font-family: Arial,sans-serif; font-size: 13px; color: #0303f5; text-align: justify;"><span style="font-size: 16px;">Here at the ARK we take pride in providing a group of individuals that all work together to build a team of people who all have the same common goal in life.That is to help people become financially independent.&nbsp; We encourage you to join our team and help us as we pave the way to your success with a group that really understands how hard it is to get a team together to succeed.&nbsp; We here at the ARK help you build your team thru group advertising such as Facebook, Twitter and other online and social media networks.&nbsp; Thru a combined effort of the Team you will succeed when you join the ARK Global Network Team.</span></p>
+
+</div>
+							<div aria-hidden="true" style="" id="def5"><span style="font-size: 16px; color: #0000ff;">We hope you will come join us as we make history with the first networking group to ever succeed on building a team that will make you money.</span><br>
+</div>							
+						</td>
+          			</tr>
+        		</tbody></table>
+			</td>
+      	</tr>
+      	<tr valign="top">
+        	<td>
+				<table bgcolor="#00ffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+          			<tbody><tr valign="top">
+            			<td class="droppable" style="padding: 25px 40px; border: medium none;">
+							<div aria-hidden="true" style="" id="def6"><p style="margin: 0px 0px 30px; font-size: 28px; color: #0303f5; letter-spacing: -1px; text-transform: uppercase;">for more information:</p>
+<span style="font-size: 24px; color: #0000ff;">Click <a title="Contact us" href="http://www.tagtn.com/#ec1" target="_blank"><span style="background-color: #ffff00;"><span style="background-color: #ffff00;">HERE</span></span></a> to have one of our Admins contact you!</span><br style="text-transform: uppercase; font-size: 18px; margin: 0px; color: #0303f5;">
+
+</div>
+						</td>
+            			<td class="droppable" style="padding-right: 40px; border: medium none;" height="272" width="264">
+							<div style="width: 264px; height: 272px;" id="vn21978ibx3" class="data-editable sortableElement imageBox">
+								<img src="http://app.talkfusion.com/newselements/default/01/images/img1.jpg" id="image3" style="display:block">
+							</div>
+						</td>
+          			</tr>
+        		</tbody></table>
+			</td>
+      	</tr>
+      	<tr valign="top">
+        	<td style="font-family:arial, sans-serif; color:#ffffff; padding:10px 0" align="center" bgcolor="#5C9CDA">
+				<div id="contact-info" style="color: rgb(255, 255, 255); text-align: left; margin-left: 20px;"><table width="100%"><tr><td align="left"><span style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #ffffff"><span style="font-size: 18px; font-weight: bold; color: #ffffff">The ARK Global Network</span><br>Welcome to the ARK Global Network<br>904-531-9949<br><a style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #ffffff" href="mailto:thearkglobalnetwork@gmail.com">thearkglobalnetwork@gmail.com</a><br><a style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color: #ffffff" href="vn_visit.asp?MjE5Nzg=_18046613">http://joinourgroup.thearkglobalnetwork.com</a><br><br><a id="xfwd" href="#" style="font-size: 18px; font-weight: bold; color: #ffffff">Forward to Friend &raquo;</a></span></td><td align="right"><a href="http://www.talkfusion.com/1149255"><img src="http://app.talkfusion.com/fusion2/img/powered.png" border="0"></a></td></tr></table></div>
+			</td>
+      	</tr>
+    </tbody></table>
+</td>
+</tr>
+</tbody></table>
+<table width="100%" align="center" bgcolor="#ffffff">
+
+<tr>
+	<td align="center">
+	<p><img src="http://app.talkfusion.com/fusion2/img/follow_us.png" width="139" height="33" alt="" border="0">&nbsp;&nbsp;<a href="http://www.facebook.com/groups/TheArkGlobalNetwork/" target="_blank"><img src="http://app.talkfusion.com/fusion2/img/facebook.png" width="38" height="37" alt="" border="0"></a>&nbsp;&nbsp;<a href="http://twitter.com/talkfusion" target="_blank"><img src="http://app.talkfusion.com/fusion2/img/twitter.png" width="40" height="39" alt="" border="0"></a>&nbsp;&nbsp;<a href="http://blogtalkfusion.com/" target="_blank"><img src="http://app.talkfusion.com/fusion2/img/TF_blog.png" width="87" height="36" alt="" border="0"></a></p>
+	</td>	
+</tr>
+
+<tr><td style="border-top: 1px solid #CCC;"><br>
+<p id="divUnsub" align="center" style="color:#999999; margin:10px; font-family:Arial, Helvetica, sans-serif; font-size:11px"><a href="unsubscribe.asp?MjE5Nzg=_18046613" style="color:#999999">Click here to unsubscribe. <img width="2" height="2" scr="vn_copyright.asp?MjE5Nzg=_!CID!" border="0"></a></p></td></tr>
+</table>
+</div>
+</body>
+</html>
